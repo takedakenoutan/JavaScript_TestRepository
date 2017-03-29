@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset =  "UTF-8" />
+		<title>Canvasのれんしゅー</title>
+		<script src = "src/script.js"></script>
+	</head>
+	<body>
+		<h1>ここから下Canvas</h1>
+		<div id = "canvasSpaces">
+		
+		</div>
+		<div id = "imageSpaces">
+		
+		</div>
+		<script>
+			var Maru = new Circle("Maru_C", 100, 100);
+			Maru.drow(50, 50, 25, true, "#ff0000");
+			Maru.toImage("Maru_I");
+			var o = new Circle("o_C", 30, 30);
+			o.drow(15, 15, 10, true, "#00eeff");
+			o.toImage("o_I");
+		</script>
+	</body>
+</html>
