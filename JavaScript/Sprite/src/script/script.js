@@ -52,8 +52,8 @@ Sprite.prototype.create = function(img){
  * @param {number} height 表示する画像の縦幅
  * @param {number} canvasX 画像を表示するX座標
  * @param {number} canvasY 画像を表示するY座標
- * @param {string} アニメーションのタイプ
- * @param {boolean} 無限か否か
+ * @param {string} type アニメーションのタイプ
+ * @param {boolean} infinity 無限か否か
  */
 
 Sprite.prototype.animation = function(loopFrame, imgX, imgY, width, height, canvasX, canvasY, type, infinity){
