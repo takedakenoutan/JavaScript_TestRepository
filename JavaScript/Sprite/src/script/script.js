@@ -7,11 +7,11 @@
  * メンバ変数の初期化を行う
  * @constructor
  * @param {string} id htmlのcanvasタグのID
- * @type {EventTarget} canvas canvasタグ
- * @type {Object} ctx canvasのコンテキスト
- * @type {number} count フレームのカウンタ
- * @type {isLoading} boolean ロード中か否か
- * @type {EventTarget} img imageタグ
+ * @type {?EventTarget} canvas
+ * @type {?Object} ctx
+ * @type {?number} count
+ * @type {?isLoading} boolean
+ * @type {?EventTarget} img
  */
 
 var Sprite = function(id){
