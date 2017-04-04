@@ -7,21 +7,21 @@
  * メンバ変数の初期化を行う
  * @constructor
  * @param {string} id htmlのcanvasタグのID
- * @type {?EventTarget} canvas
- * @type {?Object} ctx
- * @type {?number} count
- * @type {?isLoading} boolean
- * @type {?EventTarget} img
  */
 
 var Sprite = function(id){
+	/** @type {?EventTarget}*/
 	this.canvas = document.getElementById(id);
 	if(this.canvas === null){
 		throw new Error(id + "is not found.");
 	}
+	/** @type {?Object} */
 	this.ctx = this.canvas.getContext("2d");
+	/** @type {?number} */
 	this.count = null;
+	/** @type {?isLoading} */
 	this.isLoading = null;
+	/** @type {?EventTarget} */
 	this.img = null;
 };
 
