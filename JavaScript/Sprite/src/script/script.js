@@ -19,7 +19,7 @@ var Sprite = function(id){
 	this.ctx = this.canvas.getContext("2d");
 	/** @type {?number} */
 	this.count = null;
-	/** @type {?isLoading} */
+	/** @type {?boolean} */
 	this.isLoading = null;
 	/** @type {?EventTarget} */
 	this.img = null;
