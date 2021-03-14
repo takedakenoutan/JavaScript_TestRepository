@@ -3,6 +3,6 @@ def say(arg = None):
 		return
 	for name in arg:
 		print("Hello " + name + "!")
-		
+
 array = ["Takeshi", "Masashi", "Nobita"]
 say(array)
